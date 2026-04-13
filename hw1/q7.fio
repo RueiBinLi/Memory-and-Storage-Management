@@ -1,0 +1,16 @@
+[global]
+filename=fio_test_file_q7.dat
+direct=1
+rw=read
+size=1g
+stonewall
+numjobs=4
+iodepth=32
+ioengine=libaio
+group_reporting
+
+[64k_bs]
+bs=64k
+
+[128k_bs]
+bs=128k

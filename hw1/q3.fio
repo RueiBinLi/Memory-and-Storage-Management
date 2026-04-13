@@ -1,0 +1,12 @@
+[global]
+filename=fio_test_file_q3.dat
+bs=4k
+size=1g
+direct=1
+stonewall
+
+[forward_write]
+rw=write
+
+[backward_write]
+rw=write:-8k

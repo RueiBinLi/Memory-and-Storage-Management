@@ -1,0 +1,8 @@
+[global]
+filename=fio_test_file_rand_non_buffer.dat
+bs=4k
+size=1g
+direct=1
+
+[rand_non_buffer]
+rw=randread

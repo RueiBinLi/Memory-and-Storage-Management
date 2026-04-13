@@ -1,0 +1,8 @@
+[global]
+filename=fio_test_file_buffer.dat
+bs=4k
+size=1g
+direct=0
+
+[buffer_read]
+rw=read

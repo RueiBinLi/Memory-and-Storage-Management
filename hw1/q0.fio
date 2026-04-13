@@ -1,0 +1,8 @@
+[global]
+filename=fio_test_file_q0.dat
+bs=4k
+size=1g
+direct=1
+
+[job1]
+rw=read

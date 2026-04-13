@@ -1,0 +1,9 @@
+[global]
+filename=fio_test_file_write_q2_2.dat
+bs=4k
+size=1g
+direct=1
+stonewall
+
+[random_write]
+rw=randwrite
